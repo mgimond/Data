@@ -20,3 +20,9 @@ output:
 [Waterville monthly meteorological data (1900-2013)](./Exercises/WTVL_monthly_1900-2013.csv)  
 
 # ES218 Data Sets
+
+```{r fig.height=2,fig.width=2}
+library(ggvis)
+p <- ggvis(mtcars, x = ~wt, y = ~mpg)
+layer_points(p)
+```
