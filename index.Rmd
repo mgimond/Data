@@ -10,7 +10,13 @@ output:
     toc_depth: 3
 ---
 
-# Tutorial and exercise data sets
+# Tutorial and Exercise Data Sets
 
-[Fuel consumption data](./Exercises/fuel.csv) 
+[Fuel consumption data](./Exercises/fuel.csv)  
+[Passenger arrivals](./Exercises/passenger_arrivals.csv)  
+[FAO grains data for US and Canada](./Exercises/FAO_grains_NA.csv)  
+[Income and education data by county](./Exercises/Income_education.csv) ( [Codebook](./Exercises/Income_education_codebook.csv) )  
+[Buoy data](./Exercises/st44005_2010.dat)  
+[Waterville monthly meteorological data (1900-2013)](./Exercises/WTVL_monthly_1900-2013.csv)  
 
+# ES218 Data Sets
