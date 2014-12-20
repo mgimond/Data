@@ -1,0 +1,16 @@
+---
+title: "Data Folder"
+output: 
+  html_document:
+    css: style.css
+    highlight: haddock
+    number_sections: yes
+    theme: null
+    toc: yes
+    toc_depth: 3
+---
+
+# Tutorial and exercise data sets
+
+[Fuel consumption data](./Exercises/fuel.csv) 
+
