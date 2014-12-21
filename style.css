@@ -1,4 +1,4 @@
-@import url('http://fonts.googleapis.com/css?family=Open+Sans');
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,300italic,600);
 
 body{
    font-size: 14px;
@@ -7,6 +7,7 @@ body{
    text-indent:0px;
    margin-left:25px; 
    counter-reset:h2counter;
+   font-weight: 400;
 
 }
 
@@ -18,8 +19,9 @@ p {
 
 h1.title {
   color: #222222;
+  font-family:"Open Sans"
   font-size:3.0em;
-  font-weight: normal;
+  font-weight: 300;
 }
 h1.title:after{
   font-size:2.5em;
@@ -28,7 +30,7 @@ h1.title:after{
 
 h1 { 
    font-size:1.5em; 
-   font-weight: normal;
+   font-weight: 300;
    color: #222222;
    font-family: "Open Sans";
    text-indent:0px;
@@ -48,7 +50,7 @@ h1:after {
 
 h2 { 
    font-size:1.4em; 
-   font-weight: normal;
+   font-weight: 300;
    color: #222222;
    font-family:"Open Sans";
    text-indent:0px;
@@ -164,6 +166,19 @@ hr {
    border-top-style: solid;
    margin-left: 0px;
    
+}
+
+a:link, a:visited {
+text-decoration: none;
+color: #5555AA;
+}
+/* mouse over link */
+a:hover {
+color: #0000FF;
+}
+/* selected link */
+a:active {
+color: #AAAAAA;
 }
 
 .MathJax_Display {
