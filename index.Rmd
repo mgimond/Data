@@ -8,6 +8,8 @@ output:
     theme: null
     toc: yes
     toc_depth: 3
+    font-import: 'http://fonts.googleapis.com/css?family=Open+Sans'
+    font-family: 'Open Sans'
 ---
 
 # Tutorial and Exercise Data Sets
