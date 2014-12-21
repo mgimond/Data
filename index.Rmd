@@ -21,8 +21,3 @@ output:
 
 # ES218 Data Sets
 
-```{r fig.height=2,fig.width=2}
-library(ggvis)
-p <- ggvis(mtcars, x = ~wt, y = ~mpg)
-layer_points(p)
-```
